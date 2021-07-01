@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App:hover {
+  transform: scale(1.1);
+
+  box-shadow: 25px -25px 50px #989898, -25px 25px 50px #ffffff;
+}
