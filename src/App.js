@@ -103,7 +103,7 @@ function Recipe({ title, src, list, prep }) {
         color: "white"
       }}
     >
-      <h3 style={{ color: "black" }}>{title}</h3>
+      <h3 style={{ color: "orange" }}>{title}</h3>
       <img
         src={src}
         alt={"no image found"}
@@ -122,7 +122,7 @@ function Recipe({ title, src, list, prep }) {
       {expand ? (
         <ul style={{ listStyleType: "upper-roman" }}>
           {prep.map((step) => (
-            <li style={{ marginBottom: "10px" }}> {step} </li>
+            <li style={{ marginBottom: "20px" }}> {step} </li>
           ))}
         </ul>
       ) : (
